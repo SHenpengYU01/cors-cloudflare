@@ -1,12 +1,15 @@
 // 允许代理的目标域名白名单
 const ALLOWED_DOMAINS = [
-  "t.alcy.cc",
-        "www.dmoe.cc",
-        "api.lolicon.app",
+        "t.alcy.cc",    //栗次元
+        "www.dmoe.cc",//樱花
+        "api.lolicon.app",//啬图
         "www.loliapi.com",
-        "img.paulzzh.com",
+        "img.paulzzh.com",//东方,使用yande.re和konachan.net
         "image.baidu.com",
-        "konachan.net"
+        "konachan.net",
+        "files.yande.re",
+        ".pixiv.net",
+        ".pixiv.re"
 ];
 
 // 主处理函数
@@ -143,6 +146,8 @@ function createJsonResponse(data, status = 200, headers = {}) {
 
 
 // // src/index.js
+
+
 // export default {
 //   async fetch(request) {
 //     // 允许代理的目标域名白名单
