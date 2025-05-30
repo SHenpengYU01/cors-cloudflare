@@ -1,0 +1,8 @@
+{
+  "name": "cors-proxy-worker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0"
+  }
+}
