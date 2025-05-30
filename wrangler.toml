@@ -1,0 +1,4 @@
+# wrangler.toml
+name = "cors-proxy-worker"  # 你的Worker名称
+main = "src/index.js"        # 入口文件路径
+compatibility_date = "2025-05-30"

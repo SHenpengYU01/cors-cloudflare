@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Running tests...\" && exit 0"
+    "deploy": "wrangler deploy",
+    "test": "echo \"运行测试...\" && exit 0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.0"
   }
 }
