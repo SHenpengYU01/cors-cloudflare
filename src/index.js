@@ -144,7 +144,9 @@ export default {
         "t.alcy.cc",
         "www.dmoe.cc",
         "api.lolicon.app",
-        "www.loliapi.com"
+        "www.loliapi.com",
+        "img.paulzzh.com",
+        "image.baidu.com"
     ];
     
     try {
