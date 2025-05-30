@@ -140,7 +140,12 @@
 export default {
   async fetch(request) {
     // 允许代理的目标域名白名单
-    const ALLOWED_DOMAINS = ["t.alcy.cc"];
+    const ALLOWED_DOMAINS = [
+        "t.alcy.cc",
+        "www.dmoe.cc",
+        "api.lolicon.app",
+        "www.loliapi.com"
+    ];
     
     try {
       // 1. 只允许GET请求
