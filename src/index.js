@@ -9,7 +9,8 @@ const ALLOWED_DOMAINS = [
         "konachan.net",
         "files.yande.re",
         ".pixiv.net",
-        ".pixiv.re"
+        ".pixiv.re",
+        "img.cycimg.me"
 ];
 
 // 主处理函数
